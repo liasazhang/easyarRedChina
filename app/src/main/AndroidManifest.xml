@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="cn.easyar.samples.helloar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme">
+        <activity
+            android:name=".game.GameActivity"
+            android:screenOrientation="landscape"
+            android:exported="true" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity.RoadActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.FamousActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RedActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.VersionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.FamousShowActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.IdenActivity"
+            android:exported="true" />
+        <activity
+            android:name=".obj.ObjLoadActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.VideoActivity" />
+        <activity
+            android:name=".ARActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
+            android:screenOrientation="unspecified" />
+    </application> <!-- ar识别摄像头 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+</manifest>

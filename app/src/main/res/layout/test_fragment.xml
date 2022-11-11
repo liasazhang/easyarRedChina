@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:gravity="center">
+    <Button
+        android:id="@+id/social_follow1"
+        android:layout_width="214dp"
+        android:scaleType="fitXY"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:drawableTop="@drawable/phouse_follow"
+
+         />
+</LinearLayout>

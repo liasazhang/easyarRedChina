@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutFooter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+
+    android:orientation="horizontal">
+    <!--android:background="@color/main_footer_bg"-->
+
+
+
+
+
+
+
+
+
+
+        <!--            内容部分-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/white_radius"
+
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="-10dp">
+
+
+                <ImageView
+                    android:id="@+id/me_history"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+
+                    android:layout_margin="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/history" />
+                <ImageView
+                    android:id="@+id/me_origin"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+
+                    android:layout_margin="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/origin" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+</LinearLayout>

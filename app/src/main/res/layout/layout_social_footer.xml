@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutFooter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="horizontal">
+    <!--android:background="@color/main_footer_bg"-->
+
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/left" />
+    <RadioGroup
+        android:id="@+id/rg_social"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/social_follow"
+            style="@style/main_footer_bar_radio"
+            android:drawableTop="@drawable/phouse_follow"/>
+
+        <RadioButton
+            android:id="@+id/social_recomm"
+            style="@style/main_footer_bar_radio"
+            android:drawableTop="@drawable/recomm_select"/>
+
+
+    </RadioGroup>
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/right" />
+
+</LinearLayout>

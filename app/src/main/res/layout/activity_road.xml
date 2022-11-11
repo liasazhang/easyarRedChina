@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_marginTop="-40dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:layout_marginLeft="-10dp"
+        android:src="@drawable/top"
+        />
+    <ScrollView
+        android:id="@+id/time_line"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:layout_alignParentRight="true"
+
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon"
+                    />
+                <ImageView
+                    android:layout_marginTop="50dp"
+                    android:layout_width="2dp"
+                    android:layout_height="180dp"
+
+               android:layout_marginLeft="-25dp"
+                    android:src="@drawable/line"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/time1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="60dp"
+                            android:text="2019.04.24"
+                            android:gravity="top"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginStart="20dp" />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp">
+                            <ImageView
+
+                                android:layout_width="250dp"
+                                android:layout_height="180dp"
+
+                                android:layout_alignParentRight="true"
+
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/first"
+                                />
+                            <android.opengl.GLSurfaceView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_marginLeft="-180dp"
+                                android:id="@+id/mGLView1"/>
+
+                            <ImageView
+                                android:id="@+id/obj1"
+                                android:layout_width="30dp"
+                                android:layout_height="20dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="30dp"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/right2"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:layout_alignParentRight="true"
+
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon"
+                    />
+                <ImageView
+                    android:layout_marginTop="50dp"
+                    android:layout_width="2dp"
+                    android:layout_height="180dp"
+
+                    android:layout_marginLeft="-25dp"
+                    android:src="@drawable/line"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="60dp"
+                            android:text="2019.04.24"
+                            android:gravity="top"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginStart="20dp" />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp">
+                            <ImageView
+
+                                android:layout_width="250dp"
+                                android:layout_height="180dp"
+
+                                android:layout_alignParentRight="true"
+
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/second"
+                                />
+                            <android.opengl.GLSurfaceView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_marginLeft="-180dp"
+                                android:id="@+id/mGLView2"/>
+
+                            <ImageView
+                                android:id="@+id/obj2"
+                                android:layout_width="30dp"
+                                android:layout_height="20dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="30dp"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/right2"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <ImageView
+                    android:id="@+id/img3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:layout_alignParentRight="true"
+
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon"
+                    />
+                <ImageView
+                    android:layout_marginTop="50dp"
+                    android:layout_width="2dp"
+                    android:layout_height="180dp"
+
+                    android:layout_marginLeft="-25dp"
+                    android:src="@drawable/line"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/time3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="60dp"
+                            android:layout_marginTop="20dp"
+                            android:text="2019.04.24"
+                            android:gravity="top"
+                            android:layout_marginStart="20dp" />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp">
+                            <ImageView
+
+                                android:layout_width="250dp"
+                                android:layout_height="180dp"
+
+                                android:layout_alignParentRight="true"
+
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/third"
+                                />
+                            <android.opengl.GLSurfaceView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_marginLeft="-180dp"
+                                android:id="@+id/mGLView3"/>
+
+                            <ImageView
+                                android:id="@+id/obj3"
+                                android:layout_width="30dp"
+                                android:layout_height="20dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="30dp"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/right2"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <ImageView
+                    android:id="@+id/img4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:layout_alignParentRight="true"
+
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon"
+                    />
+                <ImageView
+                    android:layout_marginTop="50dp"
+                    android:layout_width="2dp"
+                    android:layout_height="180dp"
+
+                    android:layout_marginLeft="-25dp"
+                    android:src="@drawable/line"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/time4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="60dp"
+                            android:layout_marginTop="20dp"
+                            android:text="2019.04.24"
+                            android:gravity="top"
+                            android:layout_marginStart="20dp" />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp">
+                            <ImageView
+
+                                android:layout_width="250dp"
+                                android:layout_height="180dp"
+
+                                android:layout_alignParentRight="true"
+
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/forth"
+                                />
+                            <android.opengl.GLSurfaceView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_marginLeft="-180dp"
+                                android:id="@+id/mGLView4"/>
+
+                            <ImageView
+                                android:id="@+id/obj4"
+                                android:layout_width="30dp"
+                                android:layout_height="20dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="30dp"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/right2"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <ImageView
+                    android:id="@+id/img5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:layout_alignParentRight="true"
+
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon"
+                    />
+                <ImageView
+                    android:layout_marginTop="50dp"
+                    android:layout_width="2dp"
+                    android:layout_height="180dp"
+
+                    android:layout_marginLeft="-25dp"
+                    android:src="@drawable/line"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/time5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="60dp"
+                            android:text="2019.04.24"
+                            android:layout_marginTop="20dp"
+                            android:gravity="top"
+                            android:layout_marginStart="20dp" />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp">
+                            <ImageView
+
+                                android:layout_width="250dp"
+                                android:layout_height="180dp"
+
+                                android:layout_alignParentRight="true"
+
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/first"
+                                />
+                            <android.opengl.GLSurfaceView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_marginLeft="-180dp"
+                                android:id="@+id/mGLView5"/>
+
+                            <ImageView
+                                android:id="@+id/obj5"
+                                android:layout_width="30dp"
+                                android:layout_height="20dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="30dp"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/right2"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <ImageView
+                    android:id="@+id/img6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:layout_alignParentRight="true"
+
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon"
+                    />
+                <ImageView
+                    android:layout_marginTop="50dp"
+                    android:layout_width="2dp"
+                    android:layout_height="180dp"
+
+                    android:layout_marginLeft="-25dp"
+                    android:src="@drawable/line"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/time6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="60dp"
+                            android:text="2019.04.24"
+                            android:layout_marginTop="20dp"
+                            android:gravity="top"
+                            android:layout_marginStart="20dp" />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp">
+                            <ImageView
+
+                                android:layout_width="250dp"
+                                android:layout_height="180dp"
+
+                                android:layout_alignParentRight="true"
+
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/first"
+                                />
+                            <android.opengl.GLSurfaceView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_marginLeft="-180dp"
+                                android:id="@+id/mGLView6"/>
+
+                            <ImageView
+                                android:id="@+id/obj6"
+                                android:layout_width="30dp"
+                                android:layout_height="20dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="30dp"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/right2"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <ImageView
+                    android:id="@+id/img7"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:layout_alignParentRight="true"
+
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon"
+                    />
+                <ImageView
+                    android:layout_marginTop="50dp"
+                    android:layout_width="2dp"
+                    android:layout_height="180dp"
+
+                    android:layout_marginLeft="-25dp"
+                    android:src="@drawable/line"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/time7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="60dp"
+                            android:text="2019.04.24"
+                            android:layout_marginTop="20dp"
+                            android:gravity="top"
+                            android:layout_marginStart="20dp" />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp">
+                            <ImageView
+
+                                android:layout_width="250dp"
+                                android:layout_height="180dp"
+
+                                android:layout_alignParentRight="true"
+
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/first"
+                                />
+                            <android.opengl.GLSurfaceView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_marginLeft="-180dp"
+                                android:id="@+id/mGLView7"/>
+
+                            <ImageView
+                                android:id="@+id/obj7"
+                                android:layout_width="30dp"
+                                android:layout_height="20dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="30dp"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/right2"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <ImageView
+                    android:id="@+id/img8"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:layout_alignParentRight="true"
+
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon"
+                    />
+                <ImageView
+                    android:layout_marginTop="50dp"
+                    android:layout_width="2dp"
+                    android:layout_height="180dp"
+
+                    android:layout_marginLeft="-25dp"
+                    android:src="@drawable/line"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/time8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="60dp"
+                            android:layout_marginTop="20dp"
+                            android:text="2019.04.24"
+                            android:gravity="top"
+                            android:layout_marginStart="20dp" />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp">
+                            <ImageView
+
+                                android:layout_width="250dp"
+                                android:layout_height="180dp"
+
+                                android:layout_alignParentRight="true"
+
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/first"
+                                />
+                            <android.opengl.GLSurfaceView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_marginLeft="-180dp"
+                                android:id="@+id/mGLView8"/>
+
+                            <ImageView
+                                android:id="@+id/obj8"
+                                android:layout_width="30dp"
+                                android:layout_height="20dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="30dp"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/right2"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

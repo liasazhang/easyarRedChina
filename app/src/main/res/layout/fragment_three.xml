@@ -1,0 +1,481 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".activity.ThreeFragment">
+    <include layout="@layout/layout_phouse_header" />
+
+<!--    整体下滑界面-->
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:fadingEdge="none"
+        android:scrollbars="none"
+        android:orientation="vertical">
+<!--        上面-->
+        <LinearLayout
+
+            android:background="@drawable/white_background"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+
+            android:id="@+id/bottom2"
+            android:layout_gravity="center_horizontal"
+
+            >
+
+            <ImageView
+                android:id="@+id/phouse_follow"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+
+
+
+                android:scaleType="fitXY"
+                android:src="@drawable/changzhen" />
+
+
+
+
+        </LinearLayout>
+<!--        下面-->
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:fadingEdge="none"
+        android:scrollbars="none">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/bottom"
+
+        android:layout_gravity="center_horizontal"
+
+        android:orientation="vertical">
+        <LinearLayout
+
+            android:id="@+id/people"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+
+    >
+
+
+
+<!--                科普-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                >
+
+                <ImageView
+                    android:id="@+id/header"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+
+                    android:layout_marginLeft="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/tongdao" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="0dp"
+
+                        android:layout_toRightOf="@id/local1"
+                        android:text="贵州遵义"
+                        android:textColor="@color/colorRed"
+                        android:textSize="20dp"
+
+
+                        ></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+
+                        android:layout_toRightOf="@id/local1"
+                        android:text="简约在反对五次“围剿”中与西征中军事指挥上的经验与教训。"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+
+                        ></TextView>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="95dp"
+
+                    android:layout_toRightOf="@id/local1"
+                    android:text="昨天 23:59"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+
+                    ></TextView>
+
+            </LinearLayout>
+
+
+<!--第二个-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+                >
+
+                <ImageView
+                    android:id="@+id/header2"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+
+                    android:layout_marginLeft="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/lipin"
+                     />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="0dp"
+
+                        android:layout_toRightOf="@id/local1"
+                        android:text="贵州黎平县"
+                        android:textColor="@color/colorRed"
+                        android:textSize="20dp"
+
+
+                        ></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+
+                        android:layout_toRightOf="@id/local1"
+                        android:text="讨论红军的行军路线问题"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+
+                        ></TextView>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="95dp"
+
+                    android:layout_toRightOf="@id/local1"
+                    android:text="昨天 23:59"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+
+                    ></TextView>
+
+            </LinearLayout>
+            <!--第三个-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+                >
+
+                <ImageView
+                    android:id="@+id/header3"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+
+                    android:layout_marginLeft="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/houchang"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+
+                    android:orientation="vertical">
+                    <!--            <ImageView-->
+                    <!--                android:id="@+id/welcome"-->
+                    <!--                android:layout_width="90dp"-->
+                    <!--                android:layout_height="30dp"-->
+
+                    <!--                android:layout_marginTop="10dp"-->
+                    <!--                android:layout_marginLeft="10dp"-->
+                    <!--                android:scaleType="fitXY"-->
+                    <!--                android:src="@drawable/welcome" />-->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="0dp"
+
+                        android:layout_toRightOf="@id/local1"
+                        android:text="贵州瓮安县猴场镇"
+                        android:textColor="@color/colorRed"
+                        android:textSize="20dp"
+
+
+                        ></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+
+                        android:layout_toRightOf="@id/local1"
+                        android:text="毛泽东重申红军应在川黔边地区先以遵义为中心建立新的根据地。"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+
+                        ></TextView>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="95dp"
+
+                    android:layout_toRightOf="@id/local1"
+                    android:text="昨天 23:59"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+
+                    ></TextView>
+
+            </LinearLayout>
+<!--            第四个-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+                >
+
+                <ImageView
+                    android:id="@+id/header4"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+
+                    android:layout_marginLeft="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/zunyi"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="0dp"
+
+                        android:layout_toRightOf="@id/local1"
+                        android:text="贵州遵义"
+                        android:textColor="@color/colorRed"
+                        android:textSize="20dp"
+
+
+                        ></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+
+                        android:layout_toRightOf="@id/local1"
+                        android:text="简约在反对五次“围剿”中与西征中军事指挥上的经验与教训。"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+
+                        ></TextView>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="95dp"
+
+                    android:layout_toRightOf="@id/local1"
+                    android:text="昨天 23:59"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+
+                    ></TextView>
+
+            </LinearLayout>
+            <!--            第五个-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+                >
+
+                <ImageView
+                    android:id="@+id/header5"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+
+                    android:layout_marginLeft="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/zhaxi"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="0dp"
+
+                        android:layout_toRightOf="@id/local1"
+                        android:text="扎西会议"
+                        android:textColor="@color/colorRed"
+                        android:textSize="20dp"
+
+
+                        ></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+
+                        android:layout_toRightOf="@id/local1"
+                        android:text="传达并讨论由张闻天起草的《遵义会议决议》。"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+
+                        ></TextView>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="95dp"
+
+                    android:layout_toRightOf="@id/local1"
+                    android:text="昨天 23:59"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+
+                    ></TextView>
+
+            </LinearLayout>
+            <!--            第五个-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+                >
+
+                <ImageView
+                    android:id="@+id/header6"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+
+                    android:layout_marginLeft="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/gouba"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="0dp"
+
+                        android:layout_toRightOf="@id/local1"
+                        android:text="贵州遵义县枫香镇苟坝村"
+                        android:textColor="@color/colorRed"
+                        android:textSize="20dp"
+
+
+                        ></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+
+                        android:layout_toRightOf="@id/local1"
+                        android:text="传达并讨论由张闻天起草的《遵义会议决议》。"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+
+                        ></TextView>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="95dp"
+
+                    android:layout_toRightOf="@id/local1"
+                    android:text="昨天 23:59"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+
+                    ></TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
+
+
+</FrameLayout>
