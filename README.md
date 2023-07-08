@@ -1,4 +1,4 @@
-# easyarRedMoveChina
+![image](https://github.com/liasazhang/easyarRedChina/assets/87653158/ad4bb7ed-04f3-4afe-9721-4b6a5fc25739)# easyarRedMoveChina
 
 基于easyar技术、opengles技术、轮播图播放视频播放、伪橙光游戏的安卓app
 
@@ -6,6 +6,8 @@
 ![image](https://user-images.githubusercontent.com/87653158/201338649-31578f9b-6ee3-4ed9-9990-ad659f30ceff.png)
 ![image](https://user-images.githubusercontent.com/87653158/201338788-ba423b89-f62d-4ad6-be14-883dbc2f60ba.png)
 ![image](https://user-images.githubusercontent.com/87653158/201338824-205d5945-2942-48e0-9257-2c4a20751fd3.png)
+![image](https://github.com/liasazhang/easyarRedChina/assets/87653158/966f6b1a-c117-4748-8345-2d7d640e78bf)
+
 
 ### 游戏界面截图
 暂时还未找到橙光小游戏嵌入安卓的方法，只能先用图片跳转来实现
